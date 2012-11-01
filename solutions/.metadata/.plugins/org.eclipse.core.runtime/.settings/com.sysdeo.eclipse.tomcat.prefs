@@ -1,0 +1,8 @@
+#Fri Mar 09 16:46:41 EET 2012
+tomcatDir=/home/user/bin/tomcat
+eclipse.preferences.version=1
+fixTomcatHomeBug=fixed
+contextsDir=/home/user/bin/tomcat/conf/Catalina/localhost
+tomcatVersion=tomcatV6
+computeSourcePath=true
+tomcatConfigFile=/home/user/bin/tomcat/conf/server.xml
