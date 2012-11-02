@@ -1,4 +1,5 @@
-#Fri Mar 09 16:46:41 EET 2012
+#Fri Nov 02 13:25:20 EET 2012
+managerUrl=http\://localhost\:8080/manager
 tomcatDir=/home/user/bin/tomcat
 eclipse.preferences.version=1
 fixTomcatHomeBug=fixed

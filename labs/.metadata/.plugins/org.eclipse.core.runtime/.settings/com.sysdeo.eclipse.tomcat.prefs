@@ -1,0 +1,11 @@
+#Fri Nov 02 13:28:10 EET 2012
+fixTomcatHomeBug=fixed
+contextsDir=/home/user/bin/tomcat/conf/Catalina/localhost
+tomcatDir=/home/user/bin/tomcat
+computeSourcePath=true
+tomcatJRE=1351853471145
+tomcatConfigFile=/home/user/bin/tomcat/conf/server.xml
+eclipse.preferences.version=1
+tomcatVersion=tomcatV6
+managerUrl=http\://localhost\:8080/manager
+projectsInSourcePath=lab-10-quartz;lab-3-core;lab-4-core;lab-5-aop;lab-6-jdbc;lab-7-orm;lab-8-tx;lab-9-mvc;

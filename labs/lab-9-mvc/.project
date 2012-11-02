@@ -14,4 +14,10 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<variableList>
+		<variable>
+			<name>CATALINA_HOME</name>
+			<value>file:/home/user/Documents/labs/lab-9-mvc/lib</value>
+		</variable>
+	</variableList>
 </projectDescription>
