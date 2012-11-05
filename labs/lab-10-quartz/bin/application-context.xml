@@ -8,6 +8,12 @@
 		3.1 -->
 	<bean id="schedulerFactoryBean"
 		class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<property name="triggers">
+			<list>
+				<ref bean="reportTrigger" />
+			</list>
+		</property>
+
 	</bean>
 
 	<!-- <bean id="reportJob" class="org.springframework.scheduling.quartz.JobDetailBean"> 
@@ -28,6 +34,9 @@
 			in contrast to the older SimpleTriggerBean class. -->
 		<bean id="reportTrigger"
 			class="org.springframework.scheduling.quartz.SimpleTriggerFactoryBean">
+			<property name="jobDetail" ref="reportJob" />
+			<property name="repeatInterval" value="1000" />
+			<property name="startDelay" value="5000" />
 		</bean>
 	</beans>
 
@@ -42,6 +51,8 @@
 
 		<bean id="reportTrigger"
 			class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+			<property name="jobDetail" ref="reportJob" />
+			<property name="cronExpression" value="*/3 * * ? 11 2" />
 		</bean>
 	</beans>
 </beans>

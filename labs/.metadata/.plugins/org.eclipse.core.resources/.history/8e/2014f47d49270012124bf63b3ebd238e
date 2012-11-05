@@ -1,0 +1,50 @@
+import java.util.List;
+
+import model.*;
+
+import static java.lang.StrictMath.PI;
+
+public final class MyStrategy implements Strategy {
+    @SuppressWarnings("rawtypes")
+	@Override
+    public void move(Tank self, World world, Move move) {
+        
+    	Bonus allBns[] = world.getBonuses();
+    	int currBon=0;
+    	double minDist = 1000;
+		int minDistNum = 0;
+		
+		double angle = 0;
+    	
+    	
+    	for(Bonus i : allBns) {
+    		if(i.getDistanceTo(self) < minDist){
+    			minDist = i.getDistanceTo(self);
+    			minDistNum = currBon;
+//    			System.out.println(minDistNum);
+    		}
+    	currBon++;
+    	}
+    	
+		if (minDistNum != allBns.length) {
+			angle = self.getAngleTo(allBns[minDistNum]);
+			if (angle > 10) {
+				move.setLeftTrackPower(0.75D);
+				move.setRightTrackPower(-1.0D);
+			} else if (angle < -10) {
+				move.setLeftTrackPower(-1.0D);
+				move.setRightTrackPower(0.75D);
+			} else {
+				move.setLeftTrackPower(1.0D);
+				move.setRightTrackPower(1.0D);
+			}
+		}
+    		move.setTurretTurn(PI);
+    		move.setFireType(FireType.PREMIUM_PREFERRED);
+    }
+
+    @Override
+    public TankType selectTank(int tankIndex, int teamSize) {
+        return TankType.MEDIUM;
+    }
+}

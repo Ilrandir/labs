@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="38" version="2.0">
+<workbench progressCount="40" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="0" y="27">
 <fastViewData fastViewLocation="1024"/>
@@ -8,47 +8,69 @@
 </perspectiveBar>
 <coolbarLayout locked="0">
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="26"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="124" y="34"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="com_sysdeo_eclipse_tomcat_actionSet" itemType="typeToolBarContribution" x="88" y="26"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="112" y="26"/>
-<coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="78" y="26"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="96" y="26"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="140" y="26"/>
-<coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="36" y="26"/>
-<coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="36" y="26"/>
+<coolItem id="com_sysdeo_eclipse_tomcat_actionSet" itemType="typeToolBarContribution" x="92" y="34"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="116" y="34"/>
+<coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="84" y="34"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="100" y="34"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="140" y="34"/>
+<coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="44" y="34"/>
+<coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="44" y="34"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="68" y="34"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="172" y="26"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="172" y="34"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.debug.ui.SnippetEditor" itemType="typePlaceholder" x="140" y="34"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page focus="true" label="Workspace - Java EE">
+<page aggregateWorkingSetId="Aggregate for window 1352112146434" focus="true" label="Workspace - Java EE">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.ClassFileEditor" name="URLClassLoader.class" partName="URLClassLoader.class" title="URLClassLoader.class" tooltip="java.net.URLClassLoader" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=lab-10-quartz/\/home\/user\/bin\/jdk1.6.0_23\/jre\/lib\/rt.jar&lt;java.net(URLClassLoader.class"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7685" selectionTopPixel="3247"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyStrategy.java" partName="MyStrategy.java" path="/home/user/Documents/java-cgdk/src/main/java/MyStrategy.java" title="MyStrategy.java" tooltip="java-cgdk/src/main/java/MyStrategy.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/java-cgdk/src/main/java/MyStrategy.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1471" selectionTopPixel="602"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="World.java" partName="World.java" path="/home/user/Documents/java-cgdk/src/main/java/model/World.java" title="World.java" tooltip="java-cgdk/src/main/java/model/World.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/java-cgdk/src/main/java/model/World.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="2199" selectionTopPixel="1077"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Runner.java" partName="Runner.java" path="/home/user/Documents/java-cgdk/src/main/java/Runner.java" title="Runner.java" tooltip="java-cgdk/src/main/java/Runner.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/java-cgdk/src/main/java/Runner.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="181"/>
 </editor>
 </editors>
 <views>
+<view id="org.eclipse.jdt.junit.ResultView" partName="JUnit">
+<viewState failuresOnly="false" layout="1" orientation="2" ratio="500" scroll="false" time="true"/>
+</view>
+<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
+<viewState isPinned="false">
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+<view IMemento.internal.id="org.eclipse.wst.sse.ui.search.OccurrencesSearchResultPage" org.eclipse.search.lastActivation="1"/>
+</viewState>
+</view>
 <view id="org.eclipse.debug.ui.DebugView" partName="Debug">
 <viewState/>
 </view>
 <view id="org.eclipse.ant.ui.views.AntView" partName="Ant">
 <viewState>
-<project default="deploy" error="false" name="lab-9-MVC" path="/lab-9-mvc/build.xml"/>
 <filterInternalTargets value="false"/>
 </viewState>
 </view>
@@ -68,7 +90,19 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
-<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets">
+<viewState>
+<entry expansion="true" extent="206" maximum="206" minimum="0" pinned="false" value="0">
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+</viewState>
+</view>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
 <viewState/>
 </view>
@@ -79,7 +113,7 @@
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
 <view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
 </views>
-<perspectives activePart="org.eclipse.debug.ui.DebugView" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -136,7 +170,6 @@
 <perspective_action id="org.eclipse.wst.web.ui.webDevPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="org.eclipse.ui.views.AllMarkersView"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
 <view id="org.eclipse.wst.server.ui.ServersView"/>
@@ -144,6 +177,9 @@
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<view id="org.eclipse.jdt.junit.ResultView"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
 <view id="org.eclipse.ant.ui.views.AntView"/>
@@ -171,7 +207,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.24950495" ratioLeft="252" ratioRight="758" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottomRight" ratio="0.67895365" ratioLeft="571" ratioRight="270" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
@@ -179,11 +215,12 @@
 <page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="JUnit"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
-<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
@@ -192,18 +229,20 @@
 <part id="4"/>
 <part id="5"/>
 <part id="6"/>
+<part id="7"/>
+<part id="8"/>
 </presentation>
 </folder>
 </info>
 <info folder="true" part="topRight" ratio="0.69920844" ratioLeft="530" ratioRight="228" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ant.ui.views.AntView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
-<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="Ant"/>
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="2"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
@@ -214,10 +253,167 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=lab-10-quartz/\/home\/user\/bin\/jdk1.6.0_23\/jre\/lib\/rt.jar&lt;java.net(URLClassLoader.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/lab-10-quartz/resources/application-context-ad.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab-10-quartz/src/lab/schedule/ScheduledTask.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab-10-quartz/test/ScheduledTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.debug.ui.SnippetEditor" path="/lab-10-quartz/test/test.jpage"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/java-cgdk/pom.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/java-cgdk/java-cgdk.iml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/java-cgdk/src/main/java/MyStrategy.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/java-cgdk/src/main/java/model/World.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/java-cgdk/src/main/java/Strategy.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=java-cgdk/\/home\/user\/bin\/jdk1.6.0_23\/jre\/lib\/rt.jar&lt;java.net(Socket.class"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=java-cgdk/\/home\/user\/bin\/jdk1.6.0_23\/jre\/lib\/rt.jar&lt;java.lang(Thread.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/java-cgdk/src/main/java/Runner.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=java-cgdk/\/home\/user\/bin\/jdk1.6.0_23\/jre\/lib\/rt.jar&lt;java.lang(Thread.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/java-cgdk/src/main/java/Runner.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/java-cgdk/src/main/java/model/World.java"/>
 </editors>
-<item active="true" historyLabel="URLClassLoader.class" index="0">
-<position info="not_deleted" x="7685" y="0"/>
+<item historyLabel="ScheduledTask.java" index="1">
+<position info="not_deleted" x="246" y="13"/>
+</item>
+<item historyLabel="application-context-ad.xml" index="0"/>
+<item historyLabel="ScheduledTask.java" index="1">
+<position info="not_deleted" x="246" y="13"/>
+</item>
+<item historyLabel="ScheduledTest.java" index="2">
+<position info="not_deleted" x="121" y="0"/>
+</item>
+<item historyLabel="test.jpage" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ScheduledTest.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="pom.xml" index="4"/>
+<item historyLabel="java-cgdk.iml" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="1772" y="0"/>
+</item>
+<item historyLabel="World.java" index="7">
+<position/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="1772" y="0"/>
+</item>
+<item historyLabel="Strategy.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="286" y="0"/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="291" y="0"/>
+</item>
+<item historyLabel="World.java" index="7">
+<position info="not_deleted" x="2706" y="0"/>
+</item>
+<item historyLabel="World.java" index="7">
+<position info="not_deleted" x="2757" y="0"/>
+</item>
+<item historyLabel="World.java" index="7">
+<position info="not_deleted" x="462" y="7"/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="291" y="0"/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="587" y="0"/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="587" y="0"/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="756" y="0"/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="593" y="0"/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="1012" y="0"/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="370" y="0"/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="790" y="36"/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="790" y="2"/>
+</item>
+<item historyLabel="Socket.class" index="9">
+<position info="not_deleted" x="15166" y="0"/>
+</item>
+<item historyLabel="Thread.class" index="10">
+<position/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="790" y="2"/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="781" y="0"/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="1136" y="6"/>
+</item>
+<item historyLabel="Socket.class" index="9">
+<position info="not_deleted" x="15166" y="0"/>
+</item>
+<item historyLabel="Thread.class" index="10">
+<position info="not_deleted" x="71439" y="0"/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="1136" y="6"/>
+</item>
+<item historyLabel="Runner.java" index="11">
+<position info="not_deleted" x="2170" y="0"/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="595" y="0"/>
+</item>
+<item historyLabel="Thread.class" index="12">
+<position info="not_deleted" x="71439" y="0"/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="1015" y="6"/>
+</item>
+<item historyLabel="Runner.java" index="13">
+<position info="not_deleted" x="2170" y="0"/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="288" y="0"/>
+</item>
+<item historyLabel="World.java" index="14">
+<position info="not_deleted" x="2710" y="10"/>
+</item>
+<item historyLabel="Runner.java" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="288" y="0"/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="391" y="0"/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="431" y="0"/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="418" y="0"/>
+</item>
+<item historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="1443" y="0"/>
+</item>
+<item active="true" historyLabel="MyStrategy.java" index="6">
+<position info="not_deleted" x="1468" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -225,6 +421,13 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+<trimItem IMemento.internal.id="topRight"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -236,8 +439,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="URLClassLoader.class" tooltip="java.net.URLClassLoader">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=lab-10-quartz/\/home\/user\/bin\/jdk1.6.0_23\/jre\/lib\/rt.jar&lt;java.net(URLClassLoader.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Runner.java" tooltip="java-cgdk/src/main/java/Runner.java">
+<persistable path="/java-cgdk/src/main/java/Runner.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="World.java" tooltip="java-cgdk/src/main/java/model/World.java">
+<persistable path="/java-cgdk/src/main/java/model/World.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Thread.class" tooltip="java.lang.Thread">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=java-cgdk/\/home\/user\/bin\/jdk1.6.0_23\/jre\/lib\/rt.jar&lt;java.lang(Thread.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Socket.class" tooltip="java.net.Socket">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=java-cgdk/\/home\/user\/bin\/jdk1.6.0_23\/jre\/lib\/rt.jar&lt;java.net(Socket.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Unit.java" tooltip="java-cgdk/src/main/java/model/Unit.java">
+<persistable path="/java-cgdk/src/main/java/model/Unit.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Bonus.java" tooltip="java-cgdk/src/main/java/model/Bonus.java">
+<persistable path="/java-cgdk/src/main/java/model/Bonus.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Strategy.java" tooltip="java-cgdk/src/main/java/Strategy.java">
+<persistable path="/java-cgdk/src/main/java/Strategy.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyStrategy.java" tooltip="java-cgdk/src/main/java/MyStrategy.java">
+<persistable path="/java-cgdk/src/main/java/MyStrategy.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="java-cgdk.iml" tooltip="java-cgdk/java-cgdk.iml">
+<persistable path="/java-cgdk/java-cgdk.iml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="pom.xml" tooltip="java-cgdk/pom.xml">
+<persistable path="/java-cgdk/pom.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.debug.ui.SnippetEditor" name="test.jpage" tooltip="lab-10-quartz/test/test.jpage">
+<persistable path="/lab-10-quartz/test/test.jpage"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Service.class" tooltip="org.springframework.stereotype.Service">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=lab-10-quartz/lib\/org.springframework.context-3.1.1.RELEASE.jar&lt;org.springframework.stereotype(Service.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ScheduledTest.java" tooltip="lab-10-quartz/test/ScheduledTest.java">
+<persistable path="/lab-10-quartz/test/ScheduledTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ScheduledTask.java" tooltip="lab-10-quartz/src/lab/schedule/ScheduledTask.java">
+<persistable path="/lab-10-quartz/src/lab/schedule/ScheduledTask.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="application-context-ad.xml" tooltip="lab-10-quartz/resources/application-context-ad.xml">
+<persistable path="/lab-10-quartz/resources/application-context-ad.xml"/>
 </file>
 </mruList>
 </workbench>
